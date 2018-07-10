@@ -1,0 +1,32 @@
+.round_progress{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.round_progress canvas{
+    width: 100%;
+}
+.round_progress .rp_middle em{
+    font-size: 14px;
+    position: absolute;
+    top:-30px;
+}
+.round_progress .rp_info_txt{
+    color: #fff;
+}
+.round_progress .rp_info_txt .rp_info_start_txt{
+    width: 70px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.round_progress .rp_info_txt .rp_info_end_txt{
+    width: 70px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}

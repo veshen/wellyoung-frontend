@@ -1,0 +1,25 @@
+@import "../global/rem";
+
+.progress_line{
+  margin-top: 4px/$rem;
+  display: flex;
+  align-items: center;
+  color: #3c9c05;
+  .progress_line_bar{
+    background: linear-gradient(90deg,#3c9c05,#b1e50b);
+    height: 5px/$rem;
+    border-radius: 5px/$rem;
+    transition:width 0.5s
+  }
+  .progress_line_bar_bg{
+    background: #040404;
+    height: 5px/$rem;
+    border-radius: 5px/$rem;
+    width: 100%;
+  }
+  span{
+    display: inline-block;
+    width: 20px/$rem;
+    margin: 0 10px/$rem;
+  }
+}

@@ -1,0 +1,115 @@
+@import "../global/rem";
+@import "../global/retinaBorder";
+.recharge-box{
+    background: #fff;
+    .title{
+        padding-top: 24px/2/$rem;
+        padding-left: 30px/2/$rem;
+        margin-bottom: 16px/2/$rem;
+        p{
+            font-size: 28px/2/$rem;
+            color: #333333;
+        }
+
+    }
+    .heightLimit{
+        height: 232px/2/$rem !important;
+    }
+    .recharge-content{
+        padding-top: 20px/2/$rem;
+        padding-left: 30px/2/$rem;
+        padding-bottom: 15px/2/$rem;
+        overflow: hidden;
+        .cardItem{
+            height: 150px/2/$rem;
+            float: left;
+            margin-right: 16px/2/$rem;
+            margin-bottom: 20px/2/$rem;
+            position: relative;
+            border: 1px solid transparent;
+            background-clip:padding-box,border-box;
+            background-origin:padding-box,border-box;
+            background-image: linear-gradient(45deg, #fff, #fff), linear-gradient(-45deg, #e0bf96, #e0bf96);
+            border-radius: 8px;
+            .tips{
+                height: 36px/2/$rem;
+                position: absolute;
+                left: -8px/2/$rem;
+                top: -18px/2/$rem;
+                background: #589a5a;
+                color: #fff;
+                font-size: 18px/2/$rem;
+                line-height: 36px/2/$rem;
+                text-align: center;
+                border-radius: 18px/2/$rem;
+                padding: 0 10px/2/$rem;
+                z-index: 9;
+            }
+
+            .balancePicBox{
+                width: 124px/2/$rem;
+                height: 82px/2/$rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .balancePic{
+                width: 100%;
+                height: 100%;
+            }
+            .diamonds{
+                position: absolute;
+                top: -9px/2/$rem;
+                left: -12px/2/$rem;
+                width: 74px/2/$rem;
+                height: 56px/2/$rem;
+            }
+            .hotTag{
+                position: absolute;
+                height: 32px/2/$rem;
+                width: 48px/2/$rem;
+                right: -36px/2/$rem;
+                top: 0;
+                z-index: 1;
+            }
+        }
+        .fatItem{
+            width: 336px/2/$rem !important;
+        }
+        .thinItem{
+            width: 215px/2/$rem !important;
+        }
+        .smallItem{
+            width: 156px/2/$rem !important;
+        }
+        .diamondsBg{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #fffaf0 !important;
+            border-radius: 8px;
+        }
+        .foldBox{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            padding-bottom: 30px/2/$rem;
+            padding-top: 32px/2/$rem;
+            z-index: 9;
+            p{
+                text-align: center;
+                font-size: 28px/2/$rem;
+                color: #666666;
+                span{
+                    font-size: 28px/2/$rem;
+                    color: #BBBBBB;
+                    padding-left: 10px/2/$rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

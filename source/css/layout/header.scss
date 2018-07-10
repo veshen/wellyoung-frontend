@@ -1,0 +1,10 @@
+@import "../global/rem";
+@import "../global/retinaBorder";
+
+.header {
+    height: 160px/2/$rem;
+    background: #fff url(../../img/logo.jpg) center no-repeat;
+    background-size: 223px/2/$rem 89px/2/$rem;
+    position: relative;
+    @include retinabb(#dedede);
+}

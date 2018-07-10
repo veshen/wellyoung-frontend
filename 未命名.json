@@ -1,0 +1,307 @@
+{
+    "2018newYear": {
+        "title": "新春红包",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/2018newYear.js"
+    },
+    "sgChoiceMall": {
+        "title": "沙绿生活严选",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/sgChoiceMall.js"
+    },
+    "sgChoice": {
+        "title": "沙绿生活严选",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/sgChoice.js"
+    },
+    "sgVip": {
+        "title": "沙绿VIP",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/sgVip.js"
+    },
+    "getAssetsRecord": {
+        "title": "我的轻食库",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/getAssetsRecord.js"
+    },
+    "exchangeSalad": {
+        "title": "我的轻食库",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/exchangeSalad.js"
+    },
+    "myAssets": {
+        "title": "我的轻食库",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/myAssets.js"
+    },
+    "giftOrderResult": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/giftOrderResult.js"
+    },
+    "giftResult": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/giftResult.js"
+    },
+    "giftReceive": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/giftReceive.js"
+    },
+    "giftReplay": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/giftReplay.js"
+    },
+    "giftGiveFriends": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/giftGiveFriends.js"
+    },
+    "giftOrderCreate": {
+        "title": "创建礼物订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/giftOrderCreate.js"
+    },
+    "happinessTransferStation": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/happinessTransferStation.js"
+    },
+    "getRedPacket": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/getRedPacket.js"
+    },
+    "sgStore": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/sgStore.js"
+    },
+    "invite_2017_newdetail": {
+        "title": "邀请好友",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/invite_2017_newdetail.js"
+    },
+    "planOrderDetail": {
+        "title": "订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planOrderDetail.js"
+    },
+    "secondKill": {
+        "title": "秒杀",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/secondKill.js"
+    },
+    "orderDetail": {
+        "title": "订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/orderDetail.js"
+    },
+    "anniversary": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/anniversary.js"
+    },
+    "addExchangeAddress": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/addExchangeAddress.js"
+    },
+    "collectChips": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/collectChips.js"
+    },
+    "searchAddress": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/searchAddress.js"
+    },
+    "orderResult": {
+        "title": "提交订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/orderResult.js"
+    },
+    "sixActivity": {
+        "title": "超值6一夏",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/sixActivity.js"
+    },
+    "extractMoneyApply": {
+        "title": "余额提现",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/extractMoneyApply.js"
+    },
+    "extractMoneyBill": {
+        "title": "账单详情",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/extractMoneyBill.js"
+    },
+    "extractMoney": {
+        "title": "可提现余额",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/extractMoney.js"
+    },
+    "planIndex": {
+        "title": "轻体计划",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planIndex.js"
+    },
+    "planDetail": {
+        "title": "我的轻体计划",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planDetail.js"
+    },
+    "planSelect": {
+        "title": "制定计划",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planSelect.js"
+    },
+    "orderComplete": {
+        "title": "计划制定成功",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/orderComplete.js"
+    },
+    "planInfoDetail": {
+        "title": "轻体计划",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planInfoDetail.js"
+    },
+    "planFiveDay": {
+        "title": "轻体计划",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planFiveDay.js"
+    },
+    "weekPackage": {
+        "title": "周末优惠组合",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/weekPackage.js"
+    },
+    "discount10": {
+        "title": "新用户100元红包",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/discount10.js"
+    },
+    "boxQRcode": {
+        "title": "包装福利",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/boxQRcode.js"
+    },
+    "stroe": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/store.js"
+    },
+    "storeOrderCreate": {
+        "title": "提交订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/storeOrderCreate.js"
+    },
+    "storeOrderDetail": {
+        "title": "订单详情",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/storeOrderDetail.js"
+    },
+    "storeOrderComplete": {
+        "title": "下单成功",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/storeOrderComplete.js"
+    },
+    "orderCreate": {
+        "title": "提交订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/orderCreate.js"
+    },
+    "myCoupon": {
+        "title": "优惠券",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/myCoupon.js"
+    },
+    "cart": {
+        "title": "购物车",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/cart.js"
+    },
+    "my": {
+        "title": "我的",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/my.js"
+    },
+    "balanceRecharge": {
+        "title": "账户余额",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/balanceRecharge.js"
+    },
+    "myOrder": {
+        "title": "订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/myOrder.js"
+    },
+    "orderCreatePlan": {
+        "title": "提交订单",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/orderCreatePlan.js"
+    },
+    "paymentCode": {
+        "title": "付款码",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/paymentCode.js"
+    },
+    "planFreedomTime": {
+        "title": "选择日期",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planFreedomTime.js"
+    },
+    "planFreedomList": {
+        "title": "选择菜品",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/planFreedomList.js"
+    },
+    "sgIndex": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/sgIndex.js"
+    },
+    "detail": {
+        "title": "详情",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/detail.js"
+    },
+    "myBalance": {
+        "title": "余额明细",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/myBalance.js"
+    },
+    "bindMobile": {
+        "title": "用户认证",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/bindMobile.js"
+    },
+    "redPacket": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/redPacket.js"
+    },
+    "address": {
+        "title": "我的收货地址",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/address.js"
+    },
+    "addAddress": {
+        "title": "新增地址",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/addAddress.js"
+    },
+    "iceWorld": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/iceWorld.js"
+    },
+    "index": {
+        "title": "沙绿轻食",
+        "jsVersion": 1,
+        "jsUrl": "http://static.sa-green.cn/static/react/20180307_04/index.js"
+    }
+}

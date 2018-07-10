@@ -1,0 +1,111 @@
+@import "../global/rem";
+@import "../global/retinaBorder";
+.plan_enter {
+    width: 120px/2/$rem;
+    height: 110px/2/$rem;
+    margin-top: -10px/2/$rem;
+    position: relative;
+    z-index: 5001;
+}
+
+.nav-bottom {
+    position: fixed;
+    z-index: 5000;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    color: #666;
+    width: 100%;
+    height: 100px/2/$rem;
+    @include retinabt(#e1e1e1);
+    ul {
+        display: flex;
+        display: -webkit-flex;
+        text-align: center;
+
+        li {
+            padding: 20px/2/$rem 0 10px/2/$rem;
+            flex: 1;
+            -webkit-flex: 1;
+            position: relative;
+
+            .icons {
+                width: 50px/2/$rem;
+                height: 50px/2/$rem;
+                font-size: 40px/2/$rem;
+                position: relative;
+                color: #666;
+                text-align: center;
+
+                .dot-count {
+                    position: absolute;
+                    left: 65%;
+                    top: -14px/2/$rem;
+                }
+            }
+
+            .text {
+                display: block;
+                font-size: 20px/2/$rem;
+            }
+
+            .active {
+                color: #3B9C05;
+            }
+        }
+    }
+}
+.trigle{
+    position: absolute;
+    width: 0;
+   height: 0;
+   border-left: 8px solid transparent;
+   border-right: 8px solid transparent;
+   border-top: 10px solid red;
+   right: 0;
+   margin-right: 28px;
+   top: 0;
+   margin-top: -34px;
+   z-index: 999;
+}
+.dot-word{
+    position: absolute;
+    right: 0;
+    margin-right: -23px;
+}
+.reddot-word{
+    border:1px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -52px;
+    width: auto;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    z-index: 999;
+    line-height: 20px;
+    border-radius: 4px;
+    word-break:keep-all;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.reddot{
+    padding:4px;
+    position:absolute;
+    background:#F12C20;
+    border-radius:100%;
+    margin-left:-3px;
+    margin-top:-3px;
+}
+.reddot-mount{
+    padding:4px;
+    position:absolute;
+    background:#F12C20;
+    color: #fff;
+    font-size: 10px;
+    border-radius:100%;
+    margin-left:-8px;
+    margin-top:-3px;
+}

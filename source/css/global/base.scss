@@ -1,0 +1,417 @@
+/*preview*/
+/*product-list*/
+/*shop-cart*/
+/*title*/
+/*menu*/
+/*nav bottom menu*/
+/*product-detail*/
+/*shop-cart*/
+/*order*/
+/*coupon*/
+/*视觉稿基准宽度*/
+/*1rem = 20px*/
+/*35rem = 750px*/
+/** * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) * Richard Clark (http://richclarkdesign.com) * http://cssreset.com */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+*{
+  user-select: none;
+  -webkit-user-select: none;
+}
+body {
+  line-height: 1;
+  width: 100%;
+  overflow-x: hidden;
+  background: #fff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+  user-select: all;
+  -webkit-user-select: all;
+}
+textarea{
+  user-select: all;
+  -webkit-user-select: all;
+}
+body {
+  width: 100%;
+  font-family: 'PingFangSC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #323232;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #575eb5;
+}
+a:visited {
+  color: #575eb5;
+}
+a:hover {
+  text-decoration: none;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'PingFangSC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  user-select: auto;
+  -webkit-user-select: auto;
+
+}
+textarea,
+input {
+  resize: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+img{
+  max-width: 100%;
+}
+
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+  font-size: 0px;
+  line-height: 0px;
+}
+.clearfix {
+  zoom: 1;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.float-none {
+  float: none;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.b,
+.strong {
+  font-weight: bold;
+}
+.font_red{
+    color:#f50826 !important;
+}
+.icon-line-horizon, .icon-line-vertical {
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  font-size: 0;
+  line-height: 0;
+  height: 1px;
+  width: 14px;
+  color: #3B9C05;
+  background-color: #ffffff;
+}
+.icon-line-horizon:last-child{
+  background-color: #3B9C05;
+}
+.icon-line-vertical{
+  transform: rotate(90deg);
+}
+
+@import "../global/iconfont";
+
+//rem
+@import "../global/rem";
+
+//R屏1像素边框
+@import "../global/retinaBorder";
+
+
+$wellyoung : #045a5d;
+
+
+.mark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+}
+
+//confirmBox
+.confirmBox{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  pointer-events: none;
+  transition:opacity 0.3s;
+  -webkit-transition:opacity 0.3s;
+  .confirmBoxinner{
+    pointer-events: auto;
+    border-radius: 5px/$rem;
+    background: #fff;
+    p{
+      padding:20px/$rem 48px/$rem;
+    }
+  }
+
+  .confirmBoxBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 40px/$rem;
+    color: #0076ff;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      pointer-events: none;
+      top:0;
+      left: 0;
+      border-top: 1px solid #e1e1e1;
+      width: 200%;
+      height: 200%;
+      transform-origin: 0 0;
+      transform: scale(0.5, 0.5);
+      -webkit-transform-origin: 0 0;
+      -webkit-transform: scale(0.5, 0.5);
+      box-sizing: border-box;
+    }
+
+    span{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #e1e1e1;
+      &:first-child{
+        border-right: 0;
+        border-radius:0 0  0 5px/$rem;
+      }
+      &:last-child{
+        border-right: 0;
+        border-radius:0 0 5px/$rem 0;
+      }
+      &.green{
+        background: #3B9C05;
+        color: #fff;
+        a{
+          color: #fff;
+        }
+      }
+    }
+
+  }
+
+}
+.icon-circle-number {
+  display: flex;
+  justify-content: center;
+  background-color: #fc5c5c;
+  min-width: 14px;
+  height: 14px;
+  line-height: 16px;
+  padding:0 1px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-reverse {
+    flex-direction: row-reverse;
+}

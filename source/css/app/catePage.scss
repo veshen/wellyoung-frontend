@@ -1,0 +1,279 @@
+@import "../global/base";
+
+.catePage{
+    padding-bottom: 100px/2/$rem;
+
+    .banner {
+        width: 100%;
+        height: 435px/2/$rem;
+        border-bottom: 18px/2/$rem solid #f5f5f5;
+        background: #dce4e7;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .title {
+        padding: 56px/2/$rem 0 0;
+        text-align: center;
+
+        .slogan {
+            font-size: 25px/2/$rem;
+            color: #045a5d;
+        }
+        .txt {
+            font-size: 42px/2/$rem;
+            color: #262626;
+            margin: 16px/2/$rem 0 34px/2/$rem;
+
+            .orna {
+                width: 25px/2/$rem;
+                height: 5px/2/$rem;
+                background: #313131;
+                margin: 0 32px/2/$rem;
+            }
+        }
+    }
+    .desc {
+        font-size: 25px/2/$rem;
+        color: #343535;
+        line-height: 38px/2/$rem;
+        text-align: center;
+        padding: 0 120px/2/$rem;
+        margin-bottom: 94px/2/$rem;
+    }
+
+    .doubCol.glist {
+        background: #fff;
+
+        .listWrap {
+            padding: 0 53px/2/$rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .listItem {
+                width: 300px/2/$rem;
+                margin-bottom: 80px/2/$rem;
+
+                img {
+                    display: block;
+                    width: 300px/2/$rem;
+                    height: 300px/2/$rem;
+                    margin-bottom: 45px/2/$rem;
+                    background: #dce4e7;
+                }
+                .itemName {
+                    font-size: 25px/2/$rem;
+                    color: #000;
+                    line-height: 1.2;
+                    margin-bottom: 30px/2/$rem;
+
+                    b {
+                        font-weight: normal;
+                    }
+                    p {
+                        height: 30px/2/$rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+                .itemBuy {
+                    justify-content: space-between;
+
+                    .itemPrice {
+                        font-size: 33px/2/$rem;
+                        color: #045a5d;
+                    }
+                    .itemAddCart {
+                        width: 30px/2/$rem;
+                        height: 30px/2/$rem;
+                        color: #045a5d;
+                    }
+                }
+            }
+        }
+    }
+
+    .doubColTc.glist {
+        background: #fff;
+
+        .listWrap {
+            padding: 0 53px/2/$rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .listItem {
+                width: 300px/2/$rem;
+                margin-bottom: 80px/2/$rem;
+                text-align: center;
+
+                img {
+                    display: block;
+                    width: 300px/2/$rem;
+                    height: 300px/2/$rem;
+                    margin-bottom: 45px/2/$rem;
+                    background: #dce4e7;
+                }
+                .itemName {
+                    font-size: 25px/2/$rem;
+                    color: #000;
+                    line-height: 1.2;
+                    margin-bottom: 25px/2/$rem;
+
+                    b {
+                        font-weight: normal;
+                    }
+                    p {
+                        height: 30px/2/$rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+                .itemBuy {
+                    justify-content: space-between;
+
+                    .itemPrice {
+                        font-size: 33px/2/$rem;
+                        color: #045a5d;
+                    }
+                    .itemAddCart {
+                        width: 30px/2/$rem;
+                        height: 30px/2/$rem;
+                        background: #045a5d;
+                    }
+                }
+            }
+        }
+    }
+
+    .singleColCross.glist {
+        background: #fff;
+
+        .listWrap {
+            padding: 0 36px/2/$rem;
+
+            .listItem {
+                margin-bottom: 82px/2/$rem;
+                justify-content: space-between;
+
+                img {
+                    display: block;
+                    width: 440px/2/$rem;
+                    height: 440px/2/$rem;
+                    background: #dce4e7;
+                }
+                .itemInfo {
+                    width: 168px/2/$rem;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    padding-right: 22px/2/$rem;
+                }
+                .shopLogo {
+                    font-size: 25px/2/$rem;
+                    line-height: 1.2;
+                    color: #000;
+                }
+                .itemName {
+                    font-size: 30px/2/$rem;
+                    color: #000;
+                    line-height: 1.5;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+                .itemPrice {
+                    width: 100%;
+                    font-size: 30px/2/$rem;
+                    color: #045a5d;
+                    margin-bottom: 48px/2/$rem;
+                }
+                .itemBuy {
+                    width: 100%;
+                    justify-content: space-between;
+
+                    .itemToShop {
+                        font-size: 20px/2/$rem;
+                        color: #045a5d;
+                    }
+                    .itemAddCart {
+                        width: 30px/2/$rem;
+                        height: 30px/2/$rem;
+                        color: #045a5d;
+                    }
+                }
+            }
+            .listItem.flex-reverse {
+                .itemInfo {
+                    padding-left: 22px/2/$rem;
+                }
+            }
+        }
+    }
+
+    .singleColFull.glist {
+        background: #fff;
+
+        .listWrap {
+            padding: 0 50px/2/$rem;
+
+            .listItem {
+                margin-bottom: 85px/2/$rem;
+                justify-content: space-between;
+
+                img {
+                    display: block;
+                    width: 650px/2/$rem;
+                    height: 650px/2/$rem;
+                    background: #dce4e7;
+                    margin-bottom: 40px/2/$rem;
+                }
+                .itemName {
+                    padding-left: 28px/2/$rem;
+                    border-left: 4px/2/$rem solid #d6d6d6;
+                    margin-bottom: 24px/2/$rem;
+
+                    b {
+                        font-size: 25px/2/$rem;
+                        font-weight: normal;
+                        color: #045a5d;
+                    }
+                    p {
+                        font-size: 32px/2/$rem;
+                        color: #2d2d2d;
+                        margin-top: 15px/2/$rem;
+                    }
+                }
+                .itemAbstract {
+                    padding-left: 30px/2/$rem;
+                    color: #706c6c;
+                    font-size: 25px/2/$rem;
+                    margin-bottom: 40px/2/$rem;
+                }
+                .itemBuy {
+                    justify-content: space-between;
+
+                    .itemPrice {
+                        font-size: 33px/2/$rem;
+                        color: #045a5d;
+                        padding-left: 30px/2/$rem;
+                    }
+                    .itemAddCart {
+                        width: 145px/2/$rem;
+                        height: 44px/2/$rem;
+                        border-radius: 5px/2/$rem;
+                        text-align: center;
+                        line-height: 44px/2/$rem;
+                        font-size: 21px/2/$rem;
+                        color: #fff;
+                        background: #045a5d;
+                    }
+                }
+            }
+        }
+    }
+}

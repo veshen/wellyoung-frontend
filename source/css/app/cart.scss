@@ -1,0 +1,188 @@
+@import "../global/base";
+
+html, body {
+    background: #f2f2f2;
+    height: 100%;
+}
+.cart-top{
+    height: 84px/2/$rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px/2/$rem 0 23px/2/$rem;
+    position: relative;
+    @include retinabb(#dcdcdc);
+    div{
+        font-size: 28px/2/$rem;
+        span{
+            margin-right: 28px/2/$rem;
+            font-size: 40px/2/$rem;
+            color: #a0a0a0;
+        }
+        .active{
+            color: $wellyoung;
+        }
+    }
+}
+
+.cart-list-box{
+    background: #fff;
+    .cart-list-item{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 24px/2/$rem;
+        .item-left-box{
+            width: 90px/2/$rem;
+            height: 176px/2/$rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                font-size: 40px/2/$rem;
+                color: #a0a0a0;
+            }
+            .active{
+                color: $wellyoung;
+            }
+        }
+        .item-right-box{
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-start;
+            padding-bottom: 24px/2/$rem;
+            position: relative;
+            @include retinabb(#dcdcdc);
+            .img-box{
+                width: 170px/2/$rem;
+                height: 176px/2/$rem;
+                margin-right: 20px/2/$rem;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .cart-list-content{
+                flex-grow: 1;
+                position: relative;
+                .cart-list-display{
+                    padding-top: 8px/2/$rem;
+                    .logo-text{
+                        font-size: 20px/2/$rem;
+                        margin-bottom: 6px/2/$rem;
+                    }
+                    .product-name{
+                        font-size: 26px/2/$rem;
+                        margin-bottom: 14px/2/$rem;
+                    }
+                    .tag-box{
+                        width: 126px/2/$rem;
+                        height: 34px/2/$rem;
+                        color: #fff;
+                        background: #bdd2c9;
+                        text-align: center;
+                        line-height: 34px/2/$rem;
+                        font-size: 22px/2/$rem;
+                        margin-bottom: 14px/2/$rem;
+                    }
+                    .price{
+                        font-size: 20px/2/$rem;
+                        color: $wellyoung;
+                        margin-bottom: 4px/2/$rem;
+                    }
+                    .originalPrice{
+                        font-size: 18px/2/$rem;
+                        color: #a7a3a4;
+                    }
+                    .product-count{
+                        position: absolute;
+                        right: 35px/2/$rem;
+                        bottom: 0;
+                        font-size: 20px/2/$rem;
+                    }
+                }
+                .cart-list-ed{
+                    display: flex;
+                    justify-content: space-between;
+                    .ed-box{
+                        padding-top: 18px/2/$rem;
+                        .ed-count-box{
+                            display: flex;
+                            justify-content: flex-start;
+                            margin-bottom: 28px/2/$rem;
+                            div{
+                                border: 1px solid #c1c1c1;
+                                height: 60px/2/$rem;
+                                width: 56px/2/$rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: #bbbbbb;
+                            }
+                            .count-box{
+                                width: 130px/2/$rem;
+                                color: #000000;
+                                margin: 0 6px/2/$rem;
+                            }
+                        }
+                        .ed-time-box{
+                            display: flex;
+                            justify-content: flex-start;
+                            p{
+                                width: 122px/2/$rem;
+                                height: 52px/2/$rem;
+                                text-align: center;
+                                line-height: 52px/2/$rem;
+                                background: #cdcdcd;
+                                color: #fff;
+                                margin-right: 18px/2/$rem;
+                            }
+                            .active{
+                                background: #bdd2c9;
+                            }
+                        }
+                    }
+                    .del-btn{
+                        width: 150px/2/$rem;
+                        height: 176px/2/$rem;
+                        font-size: 28px/2/$rem;
+                        background: $wellyoung;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+.bottom-bar-box{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 98px/2/$rem;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .price-box{
+        font-size: 24px/2/$rem;
+        color: #000000;
+        span{
+            color: $wellyoung;
+            margin: 0 34px/2/$rem 0 12px/2/$rem;
+        }
+    }
+    .sett-btn{
+        height: 100%;
+        width: 217px/2/$rem;
+        text-align: center;
+        font-size: 26px/2/$rem;
+        line-height: 98px/2/$rem;
+        background: $wellyoung;
+        color: #fff;
+    }
+}

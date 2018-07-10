@@ -1,0 +1,378 @@
+@import "../global/base";
+
+body {
+    background: #f1f1f1;
+}
+
+.delivery-address {
+    padding-bottom: 100px/2/$rem;
+}
+
+.delivery-address .address-empty {
+    color: #999999;
+    text-align: center;
+    margin-top: 188px/2/$rem;
+}
+
+.delivery-address .address-empty .icons {
+    font-size: 10rem;
+    color: #666666;
+}
+
+.delivery-address .address-empty .tips {
+}
+
+.delivery-address .delivery-address-list {
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    word-break: break-all;
+}
+
+.delivery-address .delivery-address-list li {
+    background: #fff;
+    position: relative;
+    margin: 20px/2/$rem;
+    border-radius: 4px/2/$rem;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+.delivery-address .delivery-address-list li.edit {
+    transform: translateX(-7rem);
+    -webkit-transform: translateX(-7rem);
+}
+
+.delivery-address .delivery-address-list .icons-edit {
+    position: absolute;
+    right: -7rem;
+    top: 0;
+    width: 7rem;
+    height: 6.5rem;
+    line-height: 6.5rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    background-color: #fe3b31;
+}
+
+.delivery-address .delivery-address-list .address-item-container {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.delivery-address .delivery-address-list .address {
+    padding: 20px/2/$rem;
+    flex: 1;
+    -webkit-flex: 1;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 28px/2/$rem;
+}
+
+.delivery-address .delivery-address-list .address .add {
+    line-height: 28px/2/$rem;
+    margin-bottom: 16px/2/$rem;
+    color: #666666;
+}
+.delivery-address .delivery-address-list .address .add:nth-child(3){
+    margin-bottom: 0;
+}
+.delivery-address .delivery-address-list .address .contact {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    margin-bottom: 16px/2/$rem;
+    color: #333;
+}
+
+.delivery-address .contact .address_head {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    font-size: 30px/2/$rem;
+}
+
+.delivery-address .address_mark {
+    position: absolute;
+    right: 12rem;
+    top: 0.8rem;
+}
+
+.delivery-address .address_mark img {
+    width: 10.5rem;
+    height: 4.6rem;
+}
+
+.delivery-address .contact .address_tag {
+    background: $wellyoung;
+    margin-left: 20px/2/$rem;
+    border-radius: 15px/2/$rem;
+    color: #fff;
+    font-size: 20px/2/$rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px/2/$rem;
+    line-height: 20px/2/$rem;
+    padding: 0 15px/2/$rem;
+}
+
+
+
+.delivery-address .delivery-address-list .address .tel {
+}
+
+.delivery-address .delivery-address-list .arrow {
+    @include retinabt(#e1e1e1);
+    padding: 0 20px/2/$rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    height: 78px/2/$rem;
+    position: relative;
+}
+
+
+.delivery-address .delivery-address-list .arrow em {
+    margin-left: 17px/2/$rem;
+    font-size: 24px/2/$rem;
+    color: #333;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_l {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_l.gray .icons-radio {
+    border-color: #999;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_l.gray em {
+    color: #999;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_l .icons-radio {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 30px/2/$rem;
+    height: 30px/2/$rem;
+    border-radius: 50%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_l .icons-radio.icona-choose {
+    background: $wellyoung;
+    color: #fff;
+    border-color: $wellyoung;
+    font-size: 24px/2/$rem;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_r {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.delivery-address .delivery-address-list .arrow .arrow_r .arrow_r_item {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-left: 20px/2/$rem;
+}
+/*
+.delivery-address .delivery-address-list .address-icons {
+    font-size: 2rem;
+    color: #546370;
+}
+
+.delivery-address .delivery-address-add dt {
+    padding: 1.5rem 1.5rem 1rem;
+    color: #999999;
+    font-size: 1.4rem;
+}
+
+.delivery-address .delivery-address-add ul {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.4rem;
+    border-bottom: #e1e1e1 1px solid;
+}
+
+.delivery-address .delivery-address-add li {
+    height: 4.4rem;
+    line-height: 4.4rem;
+    border-top: #e1e1e1 1px solid;
+    padding: 0 1.5rem;
+}
+
+.delivery-address .delivery-address-add li.gender {
+    margin-left: 4.9rem;
+}
+
+.delivery-address .delivery-address-add li.gender label {
+    margin-left: 5rem;
+}
+
+.delivery-address .delivery-address-add li.gender .sex {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delivery-address .delivery-address-add .icons-radio {
+    vertical-align: middle;
+}
+
+.delivery-address .delivery-address-add .icona-choose {
+    background-color: $wellyoung;
+    border-color: $wellyoung;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.delivery-address .delivery-address-add .user-info input[type=text] {
+    color: #333;
+    font-size: 1.4rem;
+    border: 0 none;
+    display: inline-block;
+    width: 16em;
+}
+
+.delivery-address .delivery-address-add .address-info {
+    color: #999999;
+}
+
+.delivery-address .delivery-address-add .address-info li {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.delivery-address .delivery-address-add .address-info .item-name {}
+
+.delivery-address .delivery-address-add .address-info .item-value {
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.delivery-address .delivery-address-add .address-info input[type=text] {
+    color: #333333;
+    font-size: 1.5rem;
+    border: 0 none;
+    display: inline-block;
+    width: 100%;
+    height: 3rem;
+}
+
+.delivery-address .address-buttons {
+    padding: 3rem 1.5rem;
+}
+
+.delivery-address .address-buttons .add-address-button,
+.delivery-address .address-buttons .delete-address-button {
+    width: 100%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    background-color: $wellyoung;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.delivery-address .address-buttons .delete-address-button {
+    background-color: #fe3b31;
+}
+
+.delivery-address .address-tips {
+    font-size: 1.2rem;
+    color: #546370;
+    text-align: center;
+}
+
+.delivery-address .address-tips a {
+    color: #fc5c5c;
+}
+
+.delivery-address .address-tips .links {
+    padding-top: 1rem;
+}
+
+.delivery-address-btn .icon-circle-button {
+    vertical-align: middle;
+}
+
+.delivery-address-btn .btn-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delivery-address-btn .btn-text .icon-plus {
+    border-radius: 100%;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+*/
+.nav-bottom-button {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 5000;
+    background-color: #ffffff;
+    width: 100%;
+    @include retinabt(#f1f1f1);
+}
+
+.nav-bottom-button .buttons {
+    margin: 12px/2/$rem 20px/2/$rem;
+    background: $wellyoung;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    height: 75px/2/$rem;
+    line-height: 75px/2/$rem;
+    font-size: 30px/2/$rem;
+    color: #ffffff;
+    border-radius: 6px/2/$rem;
+    .icon-add{
+        background: #fff;
+        color: $wellyoung;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-right: 20px/2/$rem;
+        position: relative;
+        top: -2px/2/$rem;
+    }
+}
+
+.nav-bottom-button .buttons .btn {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}

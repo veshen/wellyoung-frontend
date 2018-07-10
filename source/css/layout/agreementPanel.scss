@@ -1,0 +1,115 @@
+@import "../global/rem";
+
+.float_panel .close{
+    position: fixed;
+    width: 100%;
+    height: 90px/$rem;
+    background: #fff;
+    bottom: 0;
+    opacity: 0.9;
+    text-align: center;
+    img{
+        width: 53px/$rem;
+        height: 53px/$rem;
+        margin-top: 20px/$rem;
+    }
+}
+.float_panel{
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.65);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  &.top{
+    align-items: flex-start;
+  }
+  &.show{
+    opacity: 1;
+  }
+  .float_panel_inner_agreement{
+    position: relative;
+    height: 100%;
+    img{
+      max-width: 100%;
+    }
+  }
+  .icon-close{
+    position: absolute;
+    right: 5px/$rem;
+    top:5px/$rem;
+  }
+}
+//弹窗
+.Agreement_rule{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  .Agreement_rule_head{
+    height: 100px/2/$rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #111;
+    font-size: 18px/$rem;
+  }
+  .Agreement_rule_body{
+      height: 80%;
+      overflow-y: auto;
+    padding: 15px/$rem 20px/$rem;
+  }
+  .Agreement_rule_item{
+    display: flex;
+    font-size: 13px/$rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 5px/$rem;
+    .Agreement_rule_item_right{
+        padding-bottom: 60px/$rem;
+        font-size: 13px/$rem;
+        color: #333;
+        p{
+            margin-top: 20px/$rem;
+        }
+    }
+  }
+  .Agreement_rule_foot{
+    margin: 15px/$rem 10px/$rem;
+    display: flex;
+    font-size: 13px/$rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 5px/$rem;
+  }
+  .close{
+      position: fixed;
+      width: 100%;
+      height: 100px/$rem;
+      opacity: 0.9;
+      background: #fff;
+      bottom: 0;
+      text-align: center;
+      img{
+          width: 53px/$rem;
+          margin-top: 20px/$rem;
+      }
+  }
+}
+.agree_bg{
+    background: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+}

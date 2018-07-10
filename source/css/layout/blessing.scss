@@ -1,0 +1,93 @@
+@import "../global/base";
+
+.blessing_main{
+    margin: 10px/$rem 0;
+    font-weight: 300;
+    .blessing_div{
+        padding: 0 31.5px/$rem 15px/$rem 31.5px/$rem;
+        .blessing_title{
+            text-align: center;
+            line-height: 30px/$rem;
+            font-size: 12px/$rem;
+        }
+        .blessing_name{
+            font-size: 13px/$rem;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 15px/$rem;
+            .replay_wor{
+                color: #999;
+                font-size: 11px/$rem;
+                padding-top: 4px/$rem;
+                .icon-replay{
+                    color:  #D3D3D3;
+                    margin-right: 5px/$rem;
+                }
+            }
+            .text_name{
+                color: #111;
+                width: 100px;
+                border-top:none;
+                border-left:none;
+                border-right:none;
+                border-bottom: 1px solid #000;
+
+            }
+            .toimg{
+                width: 26px/$rem;
+                margin-right: 10px/$rem;
+            }
+            .update_bless{
+                border:1px solid #eee;
+                font-size: 12px/$rem;
+                text-align: center;
+            }
+        }
+        .blessing_detail{
+            .textarea{
+                width: 70%;
+                font-size: 13px/$rem;
+                color: #111;
+                resize: none;
+                border:none;
+                background: none;
+                word-wrap: break-word;
+                line-height: 20px/$rem;
+            }
+            .blessing_words{
+                display: flex;
+                justify-content: flex-end;
+                padding-top: 10px/$rem;
+                padding-bottom: 10px/$rem;
+            }
+        }
+        .blessing_user{
+            font-size: 13px/$rem;
+            margin-top: 15px/$rem;
+            display: flex;
+            justify-content: flex-end;
+            .text_name{
+                width: 100px;
+                border-top:none;
+                border-left:none;
+                border-right:none;
+                border-bottom: 1px solid #000;
+            }
+
+            .byimg{
+                height: 16px/$rem;
+                margin-right: 10px/$rem;
+            }
+        }
+    }
+}
+//回复内容
+.gift_replay_word{
+    margin-left: 31.5px/$rem;
+    margin-right: 31.5px/$rem;
+    .word_d{
+        font-size: 13px/$rem;
+        color: #111;
+        padding-top: 15px/$rem;
+    }
+}

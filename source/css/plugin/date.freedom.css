@@ -1,0 +1,346 @@
+.dateGet{
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+.dateGet_body_list{
+    background: none;
+    /*top: 50%;*/
+    width: 100%;
+    /*margin-top: -185px;*/
+    margin-top: 127px;
+}
+
+@media screen and (min-width:360px){
+    .dateGet_body_list{
+        margin-top: 120px;
+    }
+}
+@media screen and (min-width:375px){
+    .dateGet_body_list{
+        margin-top: 127px;
+    }
+}
+@media screen and (min-width:414px){
+    .dateGet_body_list{
+        margin-top: 137px;
+    }
+}
+
+.dateGet .dateGet_head{
+    height: 44px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    background: #151515;
+    color: #fff;
+}
+.dateGet .dateGet_head_left {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.dateGet .dateGet_head_right {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.dateGet .dateGet_head_left.disabled,.dateGet .dateGet_head_right.disabled {
+    opacity: 0;
+}
+
+/*main*/
+.dateGet .dateGet_body{
+    background: none;
+}
+.dateGet .dateGet_body_list_head{
+    color: #666;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    padding: 1px 0 6px 0;
+}
+
+.dateGet .dateGet_body_list_body_item{
+    color: #fff;
+}
+.dateGet .dateGet_body_list_body_item1{
+    flex:1 1 14.285%;
+    -webkit-flex:1 1 14.285%;
+    font-size: 14px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: left;
+    -webkit-justify-content: left;
+    align-items: left;
+    -webkit-align-items: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+.dateGet .dateGet_body_list_head_item{
+    flex:1 1 14.285%;
+    -webkit-flex:1 1 14.285%;
+    font-size: 14px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    position: relative;
+}
+.dateGet .dateGet_body_list_body_item{
+    flex:1 1 14.285%;
+    -webkit-flex:1 1 14.285%;
+    font-size: 14px;
+    color:#fff;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: left;
+    -webkit-justify-content: left;
+    align-items: left;
+    -webkit-align-items: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+.dateGet .dateGet_body_list_head_item{
+    margin: 0;
+}
+.dateGet .dateGet_body_list_head_item,.dateGet .dateGet_body_list_body_item .dateGet_body_list_body_item_inner{
+    pointer-events: none;
+}
+.dateGet .dateGet_body_list_body_item.disable{
+    color: #6e6e6e;
+    background: #e6e6e6;
+}
+.dateGet .dateGet_body_list_body{
+    /*padding:0 0 120px 0;*/
+    border-top: 1px solid;
+    border-top-color: rgba(102,102,102,0.3);
+}
+.dateGet{
+    width: 100%;
+}
+.dateGet .dateGet_body_list_item_box{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+}
+.dateGet .dateGet_body_list_body_item_prev,.dateGet .dateGet_body_list_body_item_next{
+    color: #6e6e6e;
+}
+
+.dateGet .dateGet_holiday{
+    pointer-events: none;
+    position: absolute;
+    font-size: 10px;
+    left: 0;
+    bottom:0;
+    text-align: center;
+    z-index: 100;
+}
+.dateGet .dateGet_holiday em{
+    padding: 2px 5px;
+    line-height: 1.5;
+    background: #FF8917;
+    color: #fff;
+    font-style: normal;
+    height: 18px;
+    border-radius: 18px;
+    font-weight: 100;
+}
+.dateGet .dateGet_tag{
+    pointer-events: none;
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    top:0;
+    text-align: center;
+    z-index: 100;
+}
+.dateGet .dateGet_tag em{
+    padding: 2px 5px;
+    line-height: 1.5;
+    background: #600;
+    color: #fff;
+    font-style: normal;
+    height: 18px;
+    border-radius: 18px;
+    font-weight: 100;
+}
+.dateGet .dateGet_val{
+    pointer-events: none;
+    position: relative;
+    z-index: 100;
+}
+.dateGet .dateGet_today, .dateGet_tag_week{
+    pointer-events: none;
+    position: absolute;
+    font-size: 9px;
+    top:26px;
+    left: 10px;
+    width: 100%;
+    text-align: left;
+    z-index: 100;
+    color: #5b5b5b;
+}
+/*animate*/
+.dateGet .dateGet_animate{
+    pointer-events: none;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top:0;
+}
+/*
+.dateGet .dateGet_today{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+}
+*/
+.dateGet .dateGet_animate_item{
+    border:1px solid #306015;
+    background: #306015;
+    position: absolute;
+    transition:all 0.0s;
+    -webkit-transition:all 0.0s;
+    opacity: 0;
+    z-index: 100;
+}
+.dateGet .dateGet_first_item{
+    pointer-events: none;
+    border-radius: 100%;
+    background: -webkit-linear-gradient(30deg,#3b9c05, #6dcb0c);
+    background: -o-linear-gradient(30deg,#3b9c05, #6dcb0c);
+    background: -moz-linear-gradient(30deg,#3b9c05, #6dcb0c);
+    background: linear-gradient(30deg,#3b9c05, #6dcb0c);
+    position: absolute;
+    transition:opacity 0.3s;
+    -webkit-transition:opacity 0.3s;
+    opacity: 0;
+    z-index: 99;
+}
+.nextMonthTag{
+    line-height: 40px;
+    text-align: right;
+    padding-right: 10px !important;
+}
+.icon_my{
+}
+.icon_all{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.2s;
+}
+
+.ic-choose{
+    font-size: 10px;
+    text-align: right;
+    background: #3b9c05;
+    color: #fff;
+    width: 23px;
+    height: 23px;
+    pointer-events: none;
+    background: url('https://resource.sa-green.cn/image/plan/%E5%8B%BE%E9%80%89.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 1px/$rem !important;
+}
+.dateGetBorder{
+    border-left:1px solid;
+    border-left-color: rgba(102,102,102,0.2);
+    border-bottom:1px solid;
+    border-bottom-color: rgba(102,102,102,0.2);
+}
+.today{
+    color: #5b5b5b !important;
+}
+.font_green{
+    color: #3B9C05;
+}
+.list-choose{
+    background: rgba(95,181,47,0.7);
+    transition: all 0.1s;
+}
+.dateGet_tag_mounth{
+    color: #5b5b5b;
+    font-size: 10px;
+    left: 0;
+    margin-left: 20px;
+    border-bottom:1px solid #3B9C05;
+    position: absolute;
+    padding-bottom: 2px;
+    pointer-events: none;
+    padding-top: 1px;
+}
+.list-choose .dateGet_tag_mounth{
+    color: #fff;
+}
+.list-choose .dateGet_tag_week{
+    color: #fff;
+}
+.dateGet_tag_discount{
+    font-size: 10px;
+    color: #C83434;
+    margin-top: 32px;
+    text-align: right;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+.list-choose .dateGet_tag_discount{
+    color: #fff;
+}
+.list-choose .dateGet_tag_mounth{
+    display: none;
+}
+.dateGet_tag_disabled{
+    font-size: 10px;
+    color: #5b5b5b;
+    margin-top: 32px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.dateGet_body_list_body_item_disabled{
+    background: rgba(49,49,49,0.7);
+    color: #5b5b5b;
+}
+.dateGet_body_list_body_item_disabled .dateGet_val{
+    color: #5b5b5b;
+}

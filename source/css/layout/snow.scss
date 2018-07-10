@@ -1,0 +1,36 @@
+.snowBox{
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  pointer-events: none;
+  &:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    z-index: 10;
+    background-size: 25rem 25rem;
+    background-image: url('../../img/falling-snow1.png');
+    animation: snow 18s linear infinite;
+    -webkit-animation: snow 18s linear infinite;
+  }
+}
+@-webkit-keyframes snow{
+  0%{background-position-x:0;background-position-y:0}
+  50%{background-position-y:40rem}
+  100%{background-position-x:40rem;background-position-y:80rem}
+}
+@keyframes snow{
+   0%{background-position-x:0;background-position-y:0}
+   50%{background-position-y:40rem}
+   100%{background-position-x:40rem;background-position-y:80rem}}
+
+
+
+

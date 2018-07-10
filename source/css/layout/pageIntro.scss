@@ -1,0 +1,31 @@
+@import "../global/base";
+
+.title {
+    padding: 56px/2/$rem 0 0;
+    text-align: center;
+
+    .slogan {
+        font-size: 25px/2/$rem;
+        color: #045a5d;
+    }
+    .txt {
+        font-size: 42px/2/$rem;
+        color: #262626;
+        margin: 16px/2/$rem 0 34px/2/$rem;
+
+        .orna {
+            width: 25px/2/$rem;
+            height: 5px/2/$rem;
+            background: #313131;
+            margin: 0 32px/2/$rem;
+        }
+    }
+}
+.desc {
+    font-size: 25px/2/$rem;
+    color: #343535;
+    line-height: 38px/2/$rem;
+    text-align: center;
+    padding: 0 120px/2/$rem;
+    margin-bottom: 94px/2/$rem;
+}

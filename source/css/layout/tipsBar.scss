@@ -1,0 +1,15 @@
+@import "../global/rem";
+
+.tips-bar-box{
+    background: #ffe5a3;
+    height: 72px/2/$rem;
+    line-height: 72px/2/$rem;
+    color: #ff8300;
+    font-size: 28px/2/$rem;
+    span.icon-horn{
+        margin: 0 10px/2/$rem 0 30px/2/$rem;
+    }
+    span.tips{
+        vertical-align: middle;
+    }
+}

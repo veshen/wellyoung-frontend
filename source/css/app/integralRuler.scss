@@ -1,0 +1,25 @@
+@import "../global/base";
+
+html, body {
+    background: #f2f2f2 !important;
+    height: 100%;
+}
+.container{
+    .integral-ruler-list{
+        background: #fff;
+        padding: 50px/2/$rem 50px/2/$rem 50px/2/$rem 44px/2/$rem;
+        li{
+            margin-bottom: 70px/2/$rem;
+            h3{
+                font-size: 27px/2/$rem;
+                color: #055a5d;
+                font-weight: normal;
+                line-height: 40px/2/$rem;
+            }
+            p{
+                line-height: 40px/2/$rem;
+                font-size: 26px/2/$rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+@import "../global/base";
+
+.allList{
+    padding-bottom: 100px/2/$rem;
+
+    .sort-bar {
+        background: #fafafa;
+        height: 88px/2/$rem;
+
+        .sort-item {
+            font-size: 30px/2/$rem;
+            color: #414141;
+            flex-grow: 1;
+            flex-shrink: 1;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                flex-wrap: wrap;
+                width: 12px/2/$rem;
+                margin-left: 15px/2/$rem;
+
+                i.uper {
+                    width: 0;
+                    height: 0;
+                    border-width: 5px/2/$rem;
+                    border-style: solid;
+                    border-color: transparent transparent #c7c7c7 transparent;
+                    margin-bottom: 7px/2/$rem;
+                }
+                i.down {
+                    width: 0;
+                    height: 0;
+                    border-width: 5px/2/$rem;
+                    border-style: solid;
+                    border-color: #c7c7c7 transparent transparent transparent;
+                }
+
+                i.uper.cur{
+                    border-color: transparent transparent #045a5d transparent;
+                }
+                i.down.cur{
+                    border-color: #045a5d transparent transparent transparent;
+                }
+            }
+        }
+        .sort-item.cur {
+            color: #045a5d;
+        }
+    }
+
+    .doubCol.glist {
+        background: #fff;
+
+        .listWrap {
+            padding: 0 50px/2/$rem 40px/2/$rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .listItem {
+                width: 300px/2/$rem;
+                margin-top: 40px/2/$rem;
+
+                img {
+                    display: block;
+                    width: 300px/2/$rem;
+                    height: 300px/2/$rem;
+                    margin-bottom: 45px/2/$rem;
+                    background: #dce4e7;
+                }
+                .itemName {
+                    font-size: 25px/2/$rem;
+                    color: #000;
+                    line-height: 1.2;
+                    margin-bottom: 30px/2/$rem;
+
+                    b {
+                        font-weight: normal;
+                    }
+                    p {
+                        height: 30px/2/$rem;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+                .itemBuy {
+                    justify-content: space-between;
+
+                    .itemPrice {
+                        font-size: 33px/2/$rem;
+                        color: #045a5d;
+                    }
+                    .itemAddCart {
+                        width: 30px/2/$rem;
+                        height: 30px/2/$rem;
+                        color: #045a5d;
+                    }
+                }
+            }
+        }
+    }
+}

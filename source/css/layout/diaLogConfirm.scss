@@ -1,0 +1,49 @@
+@import "../global/base";
+.diaLogConfirm-inner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5003;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    .diaLogConfirm-container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 560px/2/$rem;
+        background: #fff;
+        padding: 60px/2/$rem 30px/2/$rem 30px/2/$rem 30px/2/$rem;
+        border-radius: 4px;
+        .content-text{
+            text-align: center;
+            font-size: 36px/2/$rem;
+            color: #353535;
+        }
+        .btnBox{
+            margin-top: 60px/2/$rem;
+            overflow: hidden;
+            a{
+                display: block;
+                width: 240px/2/$rem;
+                height: 80px/2/$rem;
+                line-height: 80px/2/$rem;
+                font-size: 30px/2/$rem;
+                text-align: center;
+                box-sizing: border-box;
+            }
+            .cancelBtn{
+                float: left;
+                @include retinab(#979797,4px);
+                color: #999999;
+            }
+            .confirmBtn{
+                float: right;
+                color: #fff;
+                background: $wellyoung;
+                border-radius: 4px;
+            }
+        }
+    }
+}

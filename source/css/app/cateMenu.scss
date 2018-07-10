@@ -1,0 +1,35 @@
+@import "../global/base";
+
+.cateList{
+    padding: 0 90px/2/$rem 100px/2/$rem;
+
+    .cateTitle {
+        height: 88px/2/$rem;
+        border-left: 5px/2/$rem solid #045a5d;
+        align-content: space-between;
+        padding-left: 15px/2/$rem;
+        font-size: 41px/2/$rem;
+        color: #313131;
+        margin: 30px/2/$rem 0 56px/2/$rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        p {
+            flex-shrink: 0;
+            width: 100%;
+        }
+        p:last-child {
+            font-size: 37px/2/$rem;
+        }
+    }
+    .cateItem {
+        margin-bottom: 100px/2/$rem;
+        font-size: 30px/2/$rem;
+        color: #045a5d;
+        line-height: 1;
+
+        a {
+            color: #313131;
+        }
+    }
+}

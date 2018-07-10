@@ -1,0 +1,26 @@
+@import "../global/rem";
+
+.swiper-container {
+    height: 510px/2/$rem;
+
+    .swiper-slide {
+        background: #dce4e7;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .my-bullet {
+        width: 36px/2/$rem;
+        height: 10px/2/$rem;
+        background: #fff;
+        border-radius: 2px/2/$rem;
+        margin: 0 8px/2/$rem;
+        display: inline-block;
+    }
+    .my-active-bullet {
+        background: #045a5d;
+    }
+}

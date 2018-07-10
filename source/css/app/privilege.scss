@@ -1,0 +1,41 @@
+@import "../global/base";
+
+html, body {
+    background: #f2f2f2 !important;
+    height: 100%;
+}
+.container{
+    .user-info-box{
+        padding: 55px/2/$rem 0 50px/2/$rem;
+        background: $wellyoung;
+        margin-bottom: 150px/2/$rem;
+        img{
+            display: block;
+            margin: 0 auto 25px/2/$rem;
+            width: 130px/2/$rem;
+            height: 130px/2/$rem;
+            border: 1px solid #fff;
+            border-radius: 50%;
+
+        }
+        .user-name{
+            font-size: 28px/2/$rem;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px/2/$rem;
+        }
+        .user-integral{
+            height: 46px/2/$rem;
+            width: 132px/2/$rem;
+            text-align: center;
+            margin: 0 auto;
+            background: #c8dbd3;
+            color: $wellyoung;
+            line-height: 46px/2/$rem;
+        }
+    }
+    .bottom-pic{
+        display: block;
+        width: 100%;
+    }
+}

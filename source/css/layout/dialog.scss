@@ -1,0 +1,47 @@
+@import "../global/rem";
+.diaLogPop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 110;
+    .diaLogContent{
+        background: #fff;
+        width: 488px/2/$rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 8px;
+        text-align: center;
+        color: #000;
+        h3{
+            font-size: 30px/2/$rem;
+            font-weight: 400;
+            margin-top: 30px/2/$rem;
+            margin-bottom: 25px/2/$rem;
+        }
+        ul{
+            width: 80%;
+            margin: 0 auto;
+        }
+        li{
+            font-size: 12px;
+            margin-bottom: 16px;
+            line-height: 16px;
+        }
+        .decimal{
+            list-style-type: decimal;
+            text-align: left;
+        }
+        .diaLogBtn{
+            height: 88px/2/$rem;
+            color: #3B9C05;
+            line-height: 88px/2/$rem;
+            border-top: 1px solid #E1E1E1;
+            margin-top: 30px/2/$rem;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@import "../global/base";
+
+html, body {
+    background: #f5f5f5 !important;
+    height: 100%;
+
+}
+.box{
+    img{
+        display: block;
+        width: 100%;
+        margin-bottom: 66px/2/$rem;
+    }
+    h3{
+        font-size: 36px/2/$rem;
+        text-align: center;
+        color: $wellyoung;
+        font-weight: normal;
+        margin-bottom: 28px/2/$rem;
+    }
+    p{
+        font-size: 28px/2/$rem;
+        color: #8d8f8f;
+        text-align: center;
+        margin-bottom: 40px/2/$rem;
+        span{
+            font-size: 30px/2/$rem;
+            color: #8d8f8f;
+            margin-right: 10px/2/$rem;
+        }
+    }
+
+}
+.btn{
+    width: 682px/2/$rem;
+    height: 82px/2/$rem;
+    margin: 0 auto;
+    background: #bdd2c9;
+    text-align: center;
+    line-height: 82px/2/$rem;
+    color: #fff;
+    font-size: 27px/2/$rem;
+}
